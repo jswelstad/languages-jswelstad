@@ -11,3 +11,10 @@ lazy val root = (project in file("."))
       "com.typesafe.akka" %% "akka-stream"      % "[2.6,3.0)"   // Allows any version from 2.6.x up to (but not including) 3.0
     )
   )
+
+libraryDependencies ++= Seq(
+  "ch.qos.logback" % "logback-classic" % "1.4.11",  // Add this line for Logback
+  "com.typesafe.akka" %% "akka-actor-typed" % "2.6.20",
+  "com.typesafe.akka" %% "akka-http" % "10.2.10",
+  "com.typesafe.akka" %% "akka-stream" % "2.6.20"
+)

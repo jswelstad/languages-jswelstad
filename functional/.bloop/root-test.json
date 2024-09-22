@@ -2,39 +2,43 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "/workspaces/languages-wmacevoy/functional/hello-world-scala",
-        "workspaceDir": "/workspaces/languages-wmacevoy/functional/hello-world-scala",
+        "directory": "/workspaces/languages-jswelstad/functional",
+        "workspaceDir": "/workspaces/languages-jswelstad/functional",
         "sources": [
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/src/test/scala",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/src/test/scala-2.13",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/src/test/scala-2",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/src/test/java",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/target/scala-2.13/src_managed/test"
+            "/workspaces/languages-jswelstad/functional/src/test/scala",
+            "/workspaces/languages-jswelstad/functional/src/test/scala-2.13",
+            "/workspaces/languages-jswelstad/functional/src/test/scala-2",
+            "/workspaces/languages-jswelstad/functional/src/test/java",
+            "/workspaces/languages-jswelstad/functional/target/scala-2.13/src_managed/test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/.bloop/root/scala-2.13/classes",
+            "/workspaces/languages-jswelstad/functional/.bloop/root/scala-2.13/classes",
             "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.12/scala-library-2.13.12.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.9.0-M2/akka-actor-typed_2.13-2.9.0-M2.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.6.0-M1/akka-http_2.13-10.6.0-M1.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.9.0-M2/akka-stream_2.13-2.9.0-M2.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.9.0-M2/akka-actor_2.13-2.9.0-M2.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.9.0-M2/akka-slf4j_2.13-2.9.0-M2.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.6.0-M1/akka-http-core_2.13-10.6.0-M1.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.9.0-M2/akka-protobuf-v3_2.13-2.9.0-M2.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.10/akka-http_2.13-10.2.10.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.10/akka-http-core_2.13-10.2.10.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar",
             "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
             "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar",
-            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.6.0-M1/akka-parsing_2.13-10.6.0-M1.jar"
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.10/akka-parsing_2.13-10.2.10.jar",
+            "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
         ],
-        "out": "/workspaces/languages-wmacevoy/functional/hello-world-scala/.bloop/root",
-        "classesDir": "/workspaces/languages-wmacevoy/functional/hello-world-scala/.bloop/root/scala-2.13/test-classes",
+        "out": "/workspaces/languages-jswelstad/functional/.bloop/root",
+        "classesDir": "/workspaces/languages-jswelstad/functional/.bloop/root/scala-2.13/test-classes",
         "resources": [
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/src/test/resources",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/target/scala-2.13/resource_managed/test"
+            "/workspaces/languages-jswelstad/functional/src/test/resources",
+            "/workspaces/languages-jswelstad/functional/target/scala-2.13/resource_managed/test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -129,7 +133,7 @@
             "config": {
                 "home": "/usr/lib/jvm/msopenjdk-current",
                 "options": [
-                    "-Duser.dir=/workspaces/languages-wmacevoy/functional/hello-world-scala"
+                    "-Duser.dir=/workspaces/languages-jswelstad/functional"
                 ]
             },
             "mainClass": [
@@ -158,153 +162,204 @@
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-actor-typed_2.13",
-                    "version": "2.9.0-M2",
+                    "version": "2.6.20",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-actor-typed_2.13",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.9.0-M2/akka-actor-typed_2.13-2.9.0-M2.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-actor-typed_2.13",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.9.0-M2/akka-actor-typed_2.13-2.9.0-M2-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.20/akka-actor-typed_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-http_2.13",
-                    "version": "10.6.0-M1",
+                    "version": "10.2.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-http_2.13",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.6.0-M1/akka-http_2.13-10.6.0-M1.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.10/akka-http_2.13-10.2.10.jar"
                         },
                         {
                             "name": "akka-http_2.13",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.6.0-M1/akka-http_2.13-10.6.0-M1-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.13/10.2.10/akka-http_2.13-10.2.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-stream_2.13",
-                    "version": "2.9.0-M2",
+                    "version": "2.6.20",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-stream_2.13",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.9.0-M2/akka-stream_2.13-2.9.0-M2.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-stream_2.13",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.9.0-M2/akka-stream_2.13-2.9.0-M2-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.20/akka-stream_2.13-2.6.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.4.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.11/logback-classic-1.4.11-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-actor_2.13",
-                    "version": "2.9.0-M2",
+                    "version": "2.6.20",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-actor_2.13",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.9.0-M2/akka-actor_2.13-2.9.0-M2.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-actor_2.13",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.9.0-M2/akka-actor_2.13-2.9.0-M2-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-slf4j_2.13",
-                    "version": "2.9.0-M2",
+                    "version": "2.6.20",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-slf4j_2.13",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.9.0-M2/akka-slf4j_2.13-2.9.0-M2.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-slf4j_2.13",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.9.0-M2/akka-slf4j_2.13-2.9.0-M2-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.20/akka-slf4j_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.slf4j",
                     "name": "slf4j-api",
-                    "version": "1.7.36",
+                    "version": "2.0.7",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "slf4j-api",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar"
                         },
                         {
                             "name": "slf4j-api",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-http-core_2.13",
-                    "version": "10.6.0-M1",
+                    "version": "10.2.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-http-core_2.13",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.6.0-M1/akka-http-core_2.13-10.6.0-M1.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.10/akka-http-core_2.13-10.2.10.jar"
                         },
                         {
                             "name": "akka-http-core_2.13",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.6.0-M1/akka-http-core_2.13-10.6.0-M1-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.2.10/akka-http-core_2.13-10.2.10-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-protobuf-v3_2.13",
-                    "version": "2.9.0-M2",
+                    "version": "2.6.20",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-protobuf-v3_2.13",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.9.0-M2/akka-protobuf-v3_2.13-2.9.0-M2.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20.jar"
                         },
                         {
                             "name": "akka-protobuf-v3_2.13",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.9.0-M2/akka-protobuf-v3_2.13-2.9.0-M2-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.20/akka-protobuf-v3_2.13-2.6.20-sources.jar"
                         }
                     ]
                 },
                 {
                     "organization": "org.reactivestreams",
                     "name": "reactive-streams",
-                    "version": "1.0.4",
+                    "version": "1.0.3",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "reactive-streams",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
                         },
                         {
                             "name": "reactive-streams",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "ssl-config-core_2.13",
+                    "version": "0.4.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3.jar"
+                        },
+                        {
+                            "name": "ssl-config-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.3/ssl-config-core_2.13-0.4.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.4.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.11/logback-core-1.4.11-sources.jar"
                         }
                     ]
                 },
@@ -345,17 +400,34 @@
                 {
                     "organization": "com.typesafe.akka",
                     "name": "akka-parsing_2.13",
-                    "version": "10.6.0-M1",
+                    "version": "10.2.10",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "akka-parsing_2.13",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.6.0-M1/akka-parsing_2.13-10.6.0-M1.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.10/akka-parsing_2.13-10.2.10.jar"
                         },
                         {
                             "name": "akka-parsing_2.13",
                             "classifier": "sources",
-                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.6.0-M1/akka-parsing_2.13-10.6.0-M1-sources.jar"
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.2.10/akka-parsing_2.13-10.2.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"
                         }
                     ]
                 },

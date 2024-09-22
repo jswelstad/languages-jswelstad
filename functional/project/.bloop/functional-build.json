@@ -1,16 +1,16 @@
 {
     "version": "1.4.0",
     "project": {
-        "name": "hello-world-scala-build",
-        "directory": "/workspaces/languages-wmacevoy/functional/hello-world-scala/project",
-        "workspaceDir": "/workspaces/languages-wmacevoy/functional/hello-world-scala/project",
+        "name": "functional-build",
+        "directory": "/workspaces/languages-jswelstad/functional/project",
+        "workspaceDir": "/workspaces/languages-jswelstad/functional/project",
         "sources": [
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/src/main/scala",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/src/main/scala-2.12",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/src/main/scala-2",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/src/main/java",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/src/main/scala-sbt-1.0",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/target/scala-2.12/sbt-1.0/src_managed/main"
+            "/workspaces/languages-jswelstad/functional/project/src/main/scala",
+            "/workspaces/languages-jswelstad/functional/project/src/main/scala-2.12",
+            "/workspaces/languages-jswelstad/functional/project/src/main/scala-2",
+            "/workspaces/languages-jswelstad/functional/project/src/main/java",
+            "/workspaces/languages-jswelstad/functional/project/src/main/scala-sbt-1.0",
+            "/workspaces/languages-jswelstad/functional/project/target/scala-2.12/sbt-1.0/src_managed/main"
         ],
         "dependencies": [
             
@@ -105,11 +105,11 @@
             "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
             "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
         ],
-        "out": "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/.bloop/hello-world-scala-build",
-        "classesDir": "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/.bloop/hello-world-scala-build/scala-2.12/sbt-1.0/classes",
+        "out": "/workspaces/languages-jswelstad/functional/project/.bloop/functional-build",
+        "classesDir": "/workspaces/languages-jswelstad/functional/project/.bloop/functional-build/scala-2.12/sbt-1.0/classes",
         "resources": [
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/src/main/resources",
-            "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/target/scala-2.12/sbt-1.0/resource_managed/main"
+            "/workspaces/languages-jswelstad/functional/project/src/main/resources",
+            "/workspaces/languages-jswelstad/functional/project/target/scala-2.12/sbt-1.0/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -123,9 +123,9 @@
             ],
             "jars": [
                 "/home/vscode/.sbt/boot/scala-2.12.19/lib/scala-library.jar",
+                "/home/vscode/.sbt/boot/scala-2.12.19/lib/scala-compiler.jar",
                 "/home/vscode/.sbt/boot/scala-2.12.19/lib/scala-reflect.jar",
-                "/home/vscode/.sbt/boot/scala-2.12.19/lib/scala-xml_2.12-2.2.0.jar",
-                "/home/vscode/.sbt/boot/scala-2.12.19/lib/scala-compiler.jar"
+                "/home/vscode/.sbt/boot/scala-2.12.19/lib/scala-xml_2.12-2.2.0.jar"
             ],
             "setup": {
                 "order": "mixed",
@@ -216,7 +216,7 @@
             "config": {
                 "home": "/usr/lib/jvm/msopenjdk-current",
                 "options": [
-                    "-Duser.dir=/workspaces/languages-wmacevoy/functional/hello-world-scala/project"
+                    "-Duser.dir=/workspaces/languages-jswelstad/functional/project"
                 ]
             },
             "mainClass": [
@@ -225,11 +225,11 @@
             "runtimeConfig": {
                 "home": "/usr/lib/jvm/msopenjdk-current",
                 "options": [
-                    "-Duser.dir=/workspaces/languages-wmacevoy/functional/hello-world-scala/project"
+                    "-Duser.dir=/workspaces/languages-jswelstad/functional/project"
                 ]
             },
             "classpath": [
-                "/workspaces/languages-wmacevoy/functional/hello-world-scala/project/.bloop/hello-world-scala-build/scala-2.12/sbt-1.0/classes",
+                "/workspaces/languages-jswelstad/functional/project/.bloop/functional-build/scala-2.12/sbt-1.0/classes",
                 "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.6.0/sbt-bloop_2.12_1.0-1.6.0.jar",
                 "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/2.0.2/bloop-config_2.12-2.0.2.jar",
                 "/home/vscode/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0.jar",
