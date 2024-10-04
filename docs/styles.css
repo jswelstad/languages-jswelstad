@@ -7,6 +7,7 @@ body {
     margin: 0;
     background-color: #282c34;
     color: #61dafb;
+    position: relative; /*To position the date within the body */
 }
 
 .container {
@@ -14,8 +15,10 @@ body {
 }
 
 .date-display {
-    font-size: 2em;
-    margin-top: 10px;
+    position: absolute; /*Position the date in a fixed location */
+    top: 10px; /*Set the distance from the top of the page */
+    right: 20px; /*Set the distance from the right of the page */
+    font-size: 1.5em; /*Reduce the size slightly */
 }
 
 .time-display {
