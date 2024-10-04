@@ -13,7 +13,12 @@ body {
     text-align: center;
 }
 
+.date-display {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .time-display {
     font-size: 4em;
-    margin-top: 20px;
+    margin-top: 10px;
 }
