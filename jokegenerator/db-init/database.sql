@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS jokes (
+    id SERIAL PRIMARY KEY,
+    setup TEXT NOT NULL,
+    punchline TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

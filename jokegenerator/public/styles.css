@@ -1,0 +1,100 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling - Dark background */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: #d0d0d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Title styling - Centered at the top */
+h1 {
+  font-size: 2.5rem;
+  color: #3b82f6;
+  margin-bottom: 20px;
+  margin-top: 0;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Container styling - Dark card, moved higher */
+.container {
+  background-color: #2b2b2b;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 100%;
+  margin-top: 100px; /* Moved up a bit */
+  text-align: center;
+}
+
+/* Joke text styling - lighter text */
+#joke-container {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+#setup {
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+#punchline {
+  margin-top: 10px;
+  color: #b0b0b0;
+  font-style: italic;
+}
+
+/* Button styling - Dark blue button */
+button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  margin: 0 auto; /* Center the button */
+  display: block; /* Ensure the button stays centered */
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #joke-container {
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
